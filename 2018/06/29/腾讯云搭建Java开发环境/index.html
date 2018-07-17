@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+  
+  <title>腾讯云搭建Java开发环境 | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="前言：本次安装环境为腾讯云centos7，jdk1.8,tomcat9 安装JDK（使用yum安装）第一步：查询yum源里面的资源  yum list java  #yum search jdk  第二步：安装需要的JDK版本 yum install java-1.8.0-openjdk* -y  第三步：检查是否安装成功  java -version   结果为openjdk version “">
+<meta name="keywords" content="java,tomcat">
+<meta property="og:type" content="article">
+<meta property="og:title" content="腾讯云搭建Java开发环境">
+<meta property="og:url" content="http://yoursite.com/2018/06/29/腾讯云搭建Java开发环境/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="前言：本次安装环境为腾讯云centos7，jdk1.8,tomcat9 安装JDK（使用yum安装）第一步：查询yum源里面的资源  yum list java  #yum search jdk  第二步：安装需要的JDK版本 yum install java-1.8.0-openjdk* -y  第三步：检查是否安装成功  java -version   结果为openjdk version “">
+<meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2018-06-29T06:25:56.624Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="腾讯云搭建Java开发环境">
+<meta name="twitter:description" content="前言：本次安装环境为腾讯云centos7，jdk1.8,tomcat9 安装JDK（使用yum安装）第一步：查询yum源里面的资源  yum list java  #yum search jdk  第二步：安装需要的JDK版本 yum install java-1.8.0-openjdk* -y  第三步：检查是否安装成功  java -version   结果为openjdk version “">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-腾讯云搭建Java开发环境" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/06/29/腾讯云搭建Java开发环境/" class="article-date">
+  <time datetime="2018-06-29T02:30:20.000Z" itemprop="datePublished">2018-06-29</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/yunserver/">yunserver</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      腾讯云搭建Java开发环境
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>前言：本次安装环境为腾讯云<font color="#0099ff">centos7，jdk1.8,tomcat9</font></p>
+<h1 id="安装JDK（使用yum安装）"><a href="#安装JDK（使用yum安装）" class="headerlink" title="安装JDK（使用yum安装）"></a>安装JDK（使用yum安装）</h1><h2 id="第一步：查询yum源里面的资源"><a href="#第一步：查询yum源里面的资源" class="headerlink" title="第一步：查询yum源里面的资源"></a>第一步：查询yum源里面的资源</h2><blockquote>
+<p> yum list java<em>  #yum search jdk</em></p>
+</blockquote>
+<h2 id="第二步：安装需要的JDK版本"><a href="#第二步：安装需要的JDK版本" class="headerlink" title="第二步：安装需要的JDK版本"></a>第二步：安装需要的JDK版本</h2><blockquote>
+<p>yum install java-1.8.0-openjdk* -y</p>
+</blockquote>
+<h2 id="第三步：检查是否安装成功"><a href="#第三步：检查是否安装成功" class="headerlink" title="第三步：检查是否安装成功"></a>第三步：检查是否安装成功</h2><blockquote>
+<p> java -version<br>   结果为openjdk version “1.8.0_171”</p>
+</blockquote>
+<h1 id="安装tomcat"><a href="#安装tomcat" class="headerlink" title="安装tomcat"></a>安装tomcat</h1><h2 id="第一步：进入本地文件夹-文件夹可以自定义"><a href="#第一步：进入本地文件夹-文件夹可以自定义" class="headerlink" title="第一步：进入本地文件夹(文件夹可以自定义)"></a>第一步：进入本地文件夹(文件夹可以自定义)</h2><blockquote>
+<p>cd /usr/local</p>
+</blockquote>
+<h2 id="第二步：下载资源"><a href="#第二步：下载资源" class="headerlink" title="第二步：下载资源"></a>第二步：下载资源</h2><blockquote>
+<p>到<a href="https://tomcat.apache.org/download-90.cgi" target="_blank" rel="noopener">官网</a>上找到下载资源，复制地址这里提供一个tomcat9的下载地址<br> wget <a href="http://www-eu.apache.org/dist/tomcat/tomcat-9/v9.0.10/bin/apache-tomcat-9.0.10.tar.gz" target="_blank" rel="noopener">http://www-eu.apache.org/dist/tomcat/tomcat-9/v9.0.10/bin/apache-tomcat-9.0.10.tar.gz</a></p>
+</blockquote>
+<h2 id="第三步：解压文件并重命名"><a href="#第三步：解压文件并重命名" class="headerlink" title="第三步：解压文件并重命名"></a>第三步：解压文件并重命名</h2><blockquote>
+<p>解压：tar -zxf apache-tomcat-9.0.10.tar.gz<br>  重命名：mv apache-tomcat-9.0.10 tomcat<br>  给bin文件夹下所有的操作文件赋权限:<br>  cd tomcat/bin/<br>  chmod 777 *.sh  </p>
+</blockquote>
+<h2 id="第四步：启动tomcat，并检查"><a href="#第四步：启动tomcat，并检查" class="headerlink" title="第四步：启动tomcat，并检查"></a>第四步：启动tomcat，并检查</h2><blockquote>
+<p>./startup.sh<br>从浏览器打开ip:8080 弹出默认页面，完成 </p>
+</blockquote>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2018/06/29/腾讯云搭建Java开发环境/" data-id="cjjphazxt000188d6y1fjqu5n" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/java/">java</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tomcat/">tomcat</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2018/07/17/hello-world/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          Hello World
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2018/06/28/云服务器装MYSQL/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">云服务器装MYSQL</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/yunserver/">yunserver</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/开发工具/">开发工具</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/MYSQL/">MYSQL</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/eclipse/">eclipse</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/java/">java</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/tomcat/">tomcat</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/MYSQL/" style="font-size: 10px;">MYSQL</a> <a href="/tags/eclipse/" style="font-size: 10px;">eclipse</a> <a href="/tags/java/" style="font-size: 10px;">java</a> <a href="/tags/tomcat/" style="font-size: 10px;">tomcat</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/07/">July 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/06/">June 2018</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2018/07/17/hello-world/">Hello World</a>
+          </li>
+        
+          <li>
+            <a href="/2018/06/29/腾讯云搭建Java开发环境/">腾讯云搭建Java开发环境</a>
+          </li>
+        
+          <li>
+            <a href="/2018/06/28/云服务器装MYSQL/">云服务器装MYSQL</a>
+          </li>
+        
+          <li>
+            <a href="/2018/06/25/eclipse-快捷键/">eclipse 快捷键</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2018 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+
+
+  </div>
+</body>
+</html>
