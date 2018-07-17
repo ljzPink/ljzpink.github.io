@@ -3,8 +3,6 @@
 <head>
   <meta charset="utf-8">
   
-
-  
   <title>Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta property="og:type" content="website">
@@ -15,61 +13,214 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo">
   
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+    <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
   
-    <link rel="icon" href="/favicon.png">
+    <link rel="icon" href="/img/favicon.png">
   
   
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+      <link rel="stylesheet" href="//cdn.bootcss.com/animate.css/3.5.0/animate.min.css">
   
   <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  
+    
+    
+  
+  
+      <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  
+  <!-- 加载特效 -->
+    <script src="/js/pace.js"></script>
+    <link href="/css/pace/pace-theme-flash.css" rel="stylesheet" />
+  <script>
+      var yiliaConfig = {
+          rootUrl: '/',
+          fancybox: true,
+          animate: true,
+          isHome: true,
+          isPost: false,
+          isArchive: false,
+          isTag: false,
+          isCategory: false,
+          open_in_new: false
+      }
+  </script>
 </head>
-
 <body>
   <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
-      </h1>
-      
+    <div class="left-col">
+    <div class="overlay"></div>
+<div class="intrude-less">
+    <header id="header" class="inner">
+        <a href="/" class="profilepic">
+            
+            <img lazy-src="/img/head.jpg" class="js-avatar">
+            
+        </a>
+
+        <hgroup>
+          <h1 class="header-author"><a href="/" title="Hi Mate">John Doe</a></h1>
+        </hgroup>
+
+        
+        
+        
+            <div id="switch-btn" class="switch-btn">
+                <div class="icon">
+                    <div class="icon-ctn">
+                        <div class="icon-wrap icon-house" data-idx="0">
+                            <div class="birdhouse"></div>
+                            <div class="birdhouse_holes"></div>
+                        </div>
+                        <div class="icon-wrap icon-ribbon hide" data-idx="1">
+                            <div class="ribbon"></div>
+                        </div>
+                        
+                        <div class="icon-wrap icon-link hide" data-idx="2">
+                            <div class="loopback_l"></div>
+                            <div class="loopback_r"></div>
+                        </div>
+                        
+                        
+                        <div class="icon-wrap icon-me hide" data-idx="3">
+                            <div class="user"></div>
+                            <div class="shoulder"></div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                <div class="tips-box hide">
+                    <div class="tips-arrow"></div>
+                    <ul class="tips-inner">
+                        <li>菜单</li>
+                        <li>标签</li>
+                        
+                        <li>友情链接</li>
+                        
+                        
+                        <li>关于我</li>
+                        
+                    </ul>
+                </div>
+            </div>
+        
+
+        <div id="switch-area" class="switch-area">
+            <div class="switch-wrap">
+                <section class="switch-part switch-part1">
+                    <nav class="header-menu">
+                        <ul>
+                        
+                            <li><a href="/archives/">文章列表</a></li>
+                        
+                            <li><a href="/categories/yunserver/">服务器初学</a></li>
+                        
+                            <li><a href="/categories/开发工具/">开发工具</a></li>
+                        
+                        </ul>
+                    </nav>
+                    <nav class="header-nav">
+                        <ul class="social">
+                            
+                                <a class="fl mail" target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=498116958@qq.com" title="mail">mail</a>
+                            
+                                <a class="fl github" target="_blank" href="https://github.com/ljzPink" title="github">github</a>
+                            
+                                <a class="fl weibo" target="_blank" href="https://weibo.com/u/3150226463/home" title="weibo">weibo</a>
+                            
+                        </ul>
+                    </nav>
+                </section>
+                
+                
+                <section class="switch-part switch-part2">
+                    <div class="widget tagcloud" id="js-tagcloud">
+                        <a href="/tags/MYSQL/" style="font-size: 10px;">MYSQL</a> <a href="/tags/eclipse/" style="font-size: 10px;">eclipse</a> <a href="/tags/java/" style="font-size: 10px;">java</a> <a href="/tags/tomcat/" style="font-size: 10px;">tomcat</a>
+                    </div>
+                </section>
+                
+                
+                
+                <section class="switch-part switch-part3">
+                    <div id="js-friends">
+                    
+                      <a target="_blank" class="main-nav-link switch-friends-link" href="http://luuman.github.io/">name</a>
+                    
+                    </div>
+                </section>
+                
+
+                
+                
+                <section class="switch-part switch-part4">
+                
+                    <div id="js-aboutme">爱运动、爱交友、爱旅行、喜欢接触新鲜事物、迎接新的挑战，更爱游离于错综复杂的编码与逻辑中</div>
+                </section>
+                
+            </div>
+        </div>
+    </header>                
+</div>
     </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+      <div class="overlay">
+          <div class="slider-trigger"></div>
+          <h1 class="header-author js-mobile-header hide"><a href="/" title="Me">John Doe</a></h1>
       </div>
+    <div class="intrude-less">
+        <header id="header" class="inner">
+            <a href="/" class="profilepic">
+                
+                    <img lazy-src="/img/head.jpg" class="js-avatar">
+                
+            </a>
+            <hgroup>
+              <h1 class="header-author"><a href="/" title="Me">John Doe</a></h1>
+            </hgroup>
+            
+            <nav class="header-menu">
+                <ul>
+                
+                    <li><a href="/archives/">文章列表</a></li>
+                
+                    <li><a href="/categories/yunserver/">服务器初学</a></li>
+                
+                    <li><a href="/categories/开发工具/">开发工具</a></li>
+                
+                <div class="clearfix"></div>
+                </ul>
+            </nav>
+            <nav class="header-nav">
+                <div class="social">
+                    
+                        <a class="mail" target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=498116958@qq.com" title="mail">mail</a>
+                    
+                        <a class="github" target="_blank" href="https://github.com/ljzPink" title="github">github</a>
+                    
+                        <a class="weibo" target="_blank" href="https://weibo.com/u/3150226463/home" title="weibo">weibo</a>
+                    
+                </div>
+            </nav>
+        </header>                
     </div>
-  </div>
-</header>
-      <div class="outer">
-        <section id="main">
+</nav>
+      <div class="body-wrap">
   
     <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2018/07/17/hello-world/" class="article-date">
-  <time datetime="2018-07-17T08:14:30.440Z" itemprop="datePublished">2018-07-17</time>
+  
+    <div class="article-meta">
+      <a href="/2018/07/17/hello-world/" class="article-date">
+      <time datetime="2018-07-17T08:14:30.440Z" itemprop="datePublished">2018-07-17</time>
 </a>
-    
-  </div>
+    </div>
+  
   <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
     
     
       <header class="article-header">
@@ -81,9 +232,11 @@
   
 
       </header>
+      
     
     <div class="article-entry" itemprop="articleBody">
       
+          
         <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
@@ -95,30 +248,42 @@
 <p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
 
       
+      
     </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/07/17/hello-world/" data-id="cjjphazwr000088d6rqibgbwu" class="article-share-link">Share</a>
+    
+    <div class="article-info article-info-index">
       
       
-    </footer>
+
+      
+      
+      <div class="clearfix"></div>
+    </div>
+    
   </div>
   
 </article>
 
 
+
+
+
+
+
+
+
   
     <article id="post-腾讯云搭建Java开发环境" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2018/06/29/腾讯云搭建Java开发环境/" class="article-date">
-  <time datetime="2018-06-29T02:30:20.000Z" itemprop="datePublished">2018-06-29</time>
+  
+    <div class="article-meta">
+      <a href="/2018/06/29/腾讯云搭建Java开发环境/" class="article-date">
+      <time datetime="2018-06-29T02:30:20.000Z" itemprop="datePublished">2018-06-29</time>
 </a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/yunserver/">yunserver</a>
-  </div>
-
-  </div>
+    </div>
+  
   <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
     
     
       <header class="article-header">
@@ -130,9 +295,11 @@
   
 
       </header>
+      
     
     <div class="article-entry" itemprop="articleBody">
       
+          
         <p>前言：本次安装环境为腾讯云<font color="#0099ff">centos7，jdk1.8,tomcat9</font></p>
 <h1 id="安装JDK（使用yum安装）"><a href="#安装JDK（使用yum安装）" class="headerlink" title="安装JDK（使用yum安装）"></a>安装JDK（使用yum安装）</h1><h2 id="第一步：查询yum源里面的资源"><a href="#第一步：查询yum源里面的资源" class="headerlink" title="第一步：查询yum源里面的资源"></a>第一步：查询yum源里面的资源</h2><blockquote>
 <p> yum list java<em>  #yum search jdk</em></p>
@@ -157,32 +324,50 @@
 </blockquote>
 
       
+      
     </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/06/29/腾讯云搭建Java开发环境/" data-id="cjjphazxt000188d6y1fjqu5n" class="article-share-link">Share</a>
+    
+    <div class="article-info article-info-index">
       
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/java/">java</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tomcat/">tomcat</a></li></ul>
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/yunserver/">yunserver</a>
+    </div>
 
-    </footer>
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/java/">java</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tomcat/">tomcat</a></li></ul>
+    </div>
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
   </div>
   
 </article>
 
 
+
+
+
+
+
+
+
   
     <article id="post-云服务器装MYSQL" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2018/06/28/云服务器装MYSQL/" class="article-date">
-  <time datetime="2018-06-28T04:34:33.000Z" itemprop="datePublished">2018-06-28</time>
+  
+    <div class="article-meta">
+      <a href="/2018/06/28/云服务器装MYSQL/" class="article-date">
+      <time datetime="2018-06-28T04:34:33.000Z" itemprop="datePublished">2018-06-28</time>
 </a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/yunserver/">yunserver</a>
-  </div>
-
-  </div>
+    </div>
+  
   <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
     
     
       <header class="article-header">
@@ -194,39 +379,59 @@
   
 
       </header>
+      
     
     <div class="article-entry" itemprop="articleBody">
       
+          
         <p>前言：本人用的是腾讯云的服务器，系统为CentOS 7.4 64位</p>
 <p>参考博客：<a href="https://blog.csdn.net/runner1920/article/details/79495368" target="_blank" rel="noopener">https://blog.csdn.net/runner1920/article/details/79495368</a><br>具体步骤如下：<br>第一步：登陆云服务器（如果是腾讯云的话直接可以通过浏览器直接登陆，我还是比较习惯远程链接登陆，使用的是SecureCRT）<br>第二步：下载rpm文件,可在任意文件夹下下载<br>   <code>wget https://repo.mysql.com//mysql57-community-release-el7-11.noarch.rpm</code><br>第三步：安装rpm<br>    <code>rpm -ivh mysql57-community-release-el7-11.noarch.rpm</code><br>    确认的时候输入y就好了，安装完成之后，在/etc/yum.repos.d目录下新增了两个文件，mysql-community.repo和mysql-community-source.repo（这个原文档里有，我没走执行这一步）<br>第四部：yum 安装mysql<br>    <code>yum install mysql-community-server</code><br>第五步：启动mysql服务<br>    <code>systemctl start mysqld</code><br>第六步：设置mysql开机启动<br>    <code>systemctl enable mysqld</code><br>    <code>systemctl daemon-reload</code><br>第七步：查找root密码 ，并登陆<br>    mysql安装完成之后，在/var/log/mysqld.log文件中给root生成了一个默认密码。通过下面的方式找到root默认密码，然后登录mysql进行修改：<br>    查看原始密码：<code>grep &#39;temporary password&#39; /var/log/mysqld.log</code><br>    2018-06-28T03:31:47.372660Z 1 [Note] A temporary password is generated for root@localhost: 82%KWSxkK1o1<br>    用原始密码 登陆:<code>mysql -uroot -p82%KWSxkK1o1</code><br>    修改密码：<code>mysql&gt; set password for &#39;root&#39;@&#39;localhost&#39;=password(&#39;你要修改的密码&#39;)</code><br>    注意：密码不能台简单不然会报错：<br>        ERROR 1819 (HY000): Your password does not satisfy the current policy requirements<br>        最好是有英文大小写，数字，特殊字符<br>第八步：修改/etc/my.cnf配置文件，在[mysqld]下添加编码配置，如下所示：<br>   <code>[mysqld]</code><br>  <code>character_set_server=utf8</code><br>   <code>init_connect=&#39;SET NAMES utf8&#39;</code><br>第九步：重启mysql<br>    <code>systemctl restart mysqld</code></p>
 
       
+      
     </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/06/28/云服务器装MYSQL/" data-id="cjjphazxv000288d64rc2d21f" class="article-share-link">Share</a>
+    
+    <div class="article-info article-info-index">
       
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/MYSQL/">MYSQL</a></li></ul>
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/yunserver/">yunserver</a>
+    </div>
 
-    </footer>
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/MYSQL/">MYSQL</a></li></ul>
+    </div>
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
   </div>
   
 </article>
 
 
+
+
+
+
+
+
+
   
     <article id="post-eclipse-快捷键" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2018/06/25/eclipse-快捷键/" class="article-date">
-  <time datetime="2018-06-25T09:14:02.000Z" itemprop="datePublished">2018-06-25</time>
+  
+    <div class="article-meta">
+      <a href="/2018/06/25/eclipse-快捷键/" class="article-date">
+      <time datetime="2018-06-25T09:14:02.000Z" itemprop="datePublished">2018-06-25</time>
 </a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/开发工具/">开发工具</a>
-  </div>
-
-  </div>
+    </div>
+  
   <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
     
     
       <header class="article-header">
@@ -238,129 +443,141 @@
   
 
       </header>
+      
     
     <div class="article-entry" itemprop="articleBody">
       
+          
         <p>alt+/   提示<br>格式化代码 :   ctrl+shift+f<br>导入包：       ctrl+shift+o<br>如果该类只有一个包，会直接导包<br>如果该类有多个包，会弹出对话框供选择<br>注释：单行注释：Ctrl+/ 取消再来一次<br>多行：Ctrl+shift+/<br>取消注释：Ctrl+shift+\<br>代码的上下移动：选中代码alt+↑/↓<br>查看源码：选中类名（F3或者Ctrl+鼠标点击）<br>创建对象：ctrl+2+L<br>选中要打印的变量   alt+/按两次   打印<br>删除当前行：ctrl+D<br>复制当前行：Ctrl+alt+↑<br>修改代码    alt+1<br>换行：shift +回车<br>到当行最前面/最后面：home/end<br>小写变大写：Ctrl+shift+x<br>大写变小写：Ctrl+shift+y<br>自动生成无参构造方法 alt+shift+s+c<br>自动生成有参构造方法 alt+shift+s+o<br>自动生成get set alt+shift+s+r</p>
 
       
+      
     </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/06/25/eclipse-快捷键/" data-id="cjjphazy5000d88d630oudt9v" class="article-share-link">Share</a>
+    
+    <div class="article-info article-info-index">
       
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/eclipse/">eclipse</a></li></ul>
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/开发工具/">开发工具</a>
+    </div>
 
-    </footer>
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/eclipse/">eclipse</a></li></ul>
+    </div>
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
   </div>
   
 </article>
 
 
-  
 
 
-</section>
-        
-          <aside id="sidebar">
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Categories</h3>
-    <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/yunserver/">yunserver</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/开发工具/">开发工具</a></li></ul>
-    </div>
-  </div>
+
+
+
 
 
   
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tags</h3>
-    <div class="widget">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/MYSQL/">MYSQL</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/eclipse/">eclipse</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/java/">java</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/tomcat/">tomcat</a></li></ul>
-    </div>
-  </div>
-
-
   
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tag Cloud</h3>
-    <div class="widget tagcloud">
-      <a href="/tags/MYSQL/" style="font-size: 10px;">MYSQL</a> <a href="/tags/eclipse/" style="font-size: 10px;">eclipse</a> <a href="/tags/java/" style="font-size: 10px;">java</a> <a href="/tags/tomcat/" style="font-size: 10px;">tomcat</a>
-    </div>
-  </div>
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/07/">July 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/06/">June 2018</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2018/07/17/hello-world/">Hello World</a>
-          </li>
-        
-          <li>
-            <a href="/2018/06/29/腾讯云搭建Java开发环境/">腾讯云搭建Java开发环境</a>
-          </li>
-        
-          <li>
-            <a href="/2018/06/28/云服务器装MYSQL/">云服务器装MYSQL</a>
-          </li>
-        
-          <li>
-            <a href="/2018/06/25/eclipse-快捷键/">eclipse 快捷键</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-</aside>
-        
-      </div>
+</div>
       <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2018 John Doe<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    <div class="outer">
+        <div id="footer-info">
+            <div class="footer-left">
+                &copy; 2018 John Doe
+            </div>
+            <div class="footer-right">
+                <a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/luuman/hexo-theme-spfk" target="_blank">spfk</a> by luuman
+            </div>
+        </div>
+        
+            <div class="visit">
+                
+                    <span id="busuanzi_container_site_pv" style='display:none'>
+                        <span id="site-visit" >到访数: 
+                            <span id="busuanzi_value_site_uv"></span>
+                        </span>
+                    </span>
+                
+                
+                    <span>, </span>
+                
+                
+                    <span id="busuanzi_container_page_pv" style='display:none'>
+                        <span id="page-visit">本页阅读量: 
+                            <span id="busuanzi_value_page_pv"></span>
+                        </span>
+                    </span>
+                
+            </div>
+        
     </div>
-  </div>
 </footer>
+
     </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
-    
+    <script src="https://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
+<script src="/js/main.js"></script>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-
-
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+    <script>
+        $(document).ready(function() {
+            var backgroundnum = 24;
+            var backgroundimg = "url(/background/bg-x.jpg)".replace(/x/gi, Math.ceil(Math.random() * backgroundnum));
+            $("#mobile-nav").css({"background-image": backgroundimg,"background-size": "cover","background-position": "center"});
+            $(".left-col").css({"background-image": backgroundimg,"background-size": "cover","background-position": "center"});
+        })
+    </script>
 
 
-<script src="/js/script.js"></script>
 
+
+
+<div class="scroll" id="scroll">
+    <a href="#"><i class="fa fa-arrow-up"></i></a>
+    <a href="#comments"><i class="fa fa-comments-o"></i></a>
+    <a href="#footer"><i class="fa fa-arrow-down"></i></a>
+</div>
+<script>
+    $(document).ready(function() {
+        if ($("#comments").length < 1) {
+            $("#scroll > a:nth-child(2)").hide();
+        };
+    })
+</script>
+
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
+
+  <script language="javascript">
+    $(function() {
+        $("a[title]").each(function() {
+            var a = $(this);
+            var title = a.attr('title');
+            if (title == undefined || title == "") return;
+            a.data('title', title).removeAttr('title').hover(
+
+            function() {
+                var offset = a.offset();
+                $("<div id=\"anchortitlecontainer\"></div>").appendTo($("body")).html(title).css({
+                    top: offset.top - a.outerHeight() - 15,
+                    left: offset.left + a.outerWidth()/2 + 1
+                }).fadeIn(function() {
+                    var pop = $(this);
+                    setTimeout(function() {
+                        pop.remove();
+                    }, pop.text().length * 800);
+                });
+            }, function() {
+                $("#anchortitlecontainer").remove();
+            });
+        });
+    });
+</script>
 
 
   </div>
